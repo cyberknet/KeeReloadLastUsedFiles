@@ -12,12 +12,29 @@ using KeePass.Forms;
 
 namespace KeeReloadLastUsedFiles
 {
+    /// <summary>
+    ///     Plugin to enable KeePass to save and reload last open key databases.
+    /// </summary>
+    /// <remarks>KeePass SDK documentation: http://keepass.info/help/v2_dev/plg_index.html</remarks>
     public class KeeReloadLastUsedFilesExt : Plugin
     {
         private IPluginHost pluginHost = null;
         private const string configKey = "ReloadLUF.LastUsedFiles";
         private bool exiting = false;
         private Object lockObject = new Object();
+
+        /// <summary>
+        ///     Returns the URL where KeePass can check for updates of this plugin
+        /// </summary>
+        public override string UpdateUrl
+        {
+            get { return @"https://raw.githubusercontent.com/cyberknet/KeeReloadLastUsedFiles/master/latest.txt"; }
+        }
+
+        /// <summary>
+        ///     Called when the Plugin is being loaded which happens on startup of KeePass
+        /// </summary>
+        /// <returns>True if the plugin loaded successfully, false if not</returns>
         public override bool Initialize(IPluginHost host)
         {
             pluginHost = host;
