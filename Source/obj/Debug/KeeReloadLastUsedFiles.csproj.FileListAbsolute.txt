@@ -1,7 +1,0 @@
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\bin\Debug\KeeReloadLastUsedFiles.dll
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\bin\Debug\KeeReloadLastUsedFiles.pdb
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\bin\Debug\KeePass.exe
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\bin\Debug\KeePass.XmlSerializers.dll
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\obj\Debug\KeeReloadLastUsedFiles.csprojResolveAssemblyReference.cache
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\obj\Debug\KeeReloadLastUsedFiles.dll
-C:\Users\oke13596\Downloads\KeePassChanges\KeeReloadLastUsedFiles\KeeReloadLastUsedFiles\Source\obj\Debug\KeeReloadLastUsedFiles.pdb
